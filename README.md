@@ -94,3 +94,10 @@ Built without grants, without a team, without a laptop.
 ---
 
 **Star if you find it useful!**
+
+## Validation
+
+TAT has been empirically validated on real-world data. See [docs/VALIDATION.md](docs/VALIDATION.md) for details.
+
+> *"The θ=1.987 threshold mapped to Coherence head divergence — the design principle held on real data, not just synthetic."*
+> — qingkong66, DeepSeek-V3 #1285
