@@ -101,3 +101,18 @@ TAT has been empirically validated on real-world data. See [docs/VALIDATION.md](
 
 > *"The θ=1.987 threshold mapped to Coherence head divergence — the design principle held on real data, not just synthetic."*
 > — qingkong66, DeepSeek-V3 #1285
+
+
+## Operational Envelope
+
+TAT operates within a 93–96% sufficiency band derived from its internal constants. See:
+
+- [English](docs/en/OPERATIONAL_ENVELOPE.md)
+- [Русский](docs/ru/OPERATIONAL_ENVELOPE.md)
+- [中文](docs/zh/OPERATIONAL_ENVELOPE.md)
+
+Covered topics:
+- The 93–96% envelope (7% and 4% constants)
+- Sufficiency as a design constraint
+- Downstream contract (three levels)
+- Surface coherence (coined by @icophy)
