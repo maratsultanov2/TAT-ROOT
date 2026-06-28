@@ -128,3 +128,15 @@ See:
 - [中文](docs/zh/KETTLE_PRINCIPLE.md)
 
 This is the simplest explanation of why TAT doesn't optimize for 100% — and why sufficiency is not a compromise.
+
+
+## Comparative Benchmark: TripleNet vs TAT-7
+
+Split Fashion-MNIST, 5 tasks, continual learning. TAT-7 retains 79% memory vs 5% for unprotected TripleNet.
+
+See:
+- [English](docs/en/benchmarks/COMPARATIVE_BENCHMARK.md)
+- [Русский](docs/ru/benchmarks/COMPARATIVE_BENCHMARK.md)
+- [中文](docs/zh/benchmarks/COMPARATIVE_BENCHMARK.md)
+
+Data: [CSV traces](data/)

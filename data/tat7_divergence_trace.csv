@@ -1,0 +1,6 @@
+task_id,task_name,position,coherence,divergence,harmony,heads,gate,memory_retention
+0,T-shirt vs Trouser,0.995,0.474,0.521,weak,7,escalated_7head,0.474
+1,Pullover vs Dress,0.981,0.756,0.225,active,5,escalated_5head,0.525
+2,Coat vs Sandal,1.0,0.863,0.136,active,5,escalated_5head,0.831
+3,Shirt vs Sneaker,0.999,0.907,0.092,active,3,consolidate,0.88
+4,Bag vs Ankle boot,0.998,0.875,0.122,active,5,escalated_5head,0.848
