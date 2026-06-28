@@ -116,3 +116,15 @@ Covered topics:
 - Sufficiency as a design constraint
 - Downstream contract (three levels)
 - Surface coherence (coined by @icophy)
+
+
+## The Kettle Principle
+
+TAT does not chase 100% accuracy. It operates at the level the task requires.
+
+See:
+- [English](docs/en/KETTLE_PRINCIPLE.md)
+- [Русский](docs/ru/KETTLE_PRINCIPLE.md)
+- [中文](docs/zh/KETTLE_PRINCIPLE.md)
+
+This is the simplest explanation of why TAT doesn't optimize for 100% — and why sufficiency is not a compromise.
