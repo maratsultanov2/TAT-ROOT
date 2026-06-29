@@ -21,8 +21,6 @@ HeartFlow uses a 0–100 scale. Conversion: `TAT_divergence = HeartFlow_divergen
 | Escalated (5-head) | turn | Divergence detected, protective correction |
 | Withhold (harmony silent) | heal, pause, rest, transmit | Action blocked or deferred, depending on harmony_status |
 
-This mapping preserves the semantics of both frameworks without forcing a single vocabulary.
-
 ## 3. Data Format Conventions
 
 Each framework provides results in its native format, with a `raw_format` field declared:
@@ -43,8 +41,6 @@ Each framework provides results in its native format, with a `raw_format` field 
 | Static vs. runtime-updatable rules | Gate thresholds fixed; harmony matrix learnable | 29 rules runtime-updatable without model retraining | Evaluation framework fixed; scenarios updatable |
 
 ## 5. Attribution
-
-Key concepts and their originators:
 
 | Concept | Originator | Framework |
 |---------|------------|-----------|
