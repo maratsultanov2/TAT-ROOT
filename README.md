@@ -156,3 +156,12 @@ TAT's mathematical, physical, and thermodynamic principles — all constants, fo
 - [English](docs/en/THEORETICAL_FOUNDATION.md)
 - [Русский](docs/ru/THEORETICAL_FOUNDATION.md)
 - [中文](docs/zh/THEORETICAL_FOUNDATION.md)
+
+
+## Glossary
+
+Key terms used across TAT, Cophy Runtime, HeartFlow, and TLAA — with attribution.
+
+- [English](docs/en/GLOSSARY.md)
+- [Русский](docs/ru/GLOSSARY.md)
+- [中文](docs/zh/GLOSSARY.md)
