@@ -165,3 +165,10 @@ Key terms used across TAT, Cophy Runtime, HeartFlow, and TLAA — with attributi
 - [English](docs/en/GLOSSARY.md)
 - [Русский](docs/ru/GLOSSARY.md)
 - [中文](docs/zh/GLOSSARY.md)
+
+
+## Cross-Framework Calibration
+
+Conventions for comparing TAT with HeartFlow, Cophy Runtime, and TLAA — thresholds, decision vocabularies, design philosophy differences, and data formats.
+
+- [English](CROSS_FRAMEWORK_CALIBRATION.md)
