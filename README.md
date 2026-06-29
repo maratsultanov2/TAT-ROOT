@@ -140,3 +140,10 @@ See:
 - [中文](docs/zh/benchmarks/COMPARATIVE_BENCHMARK.md)
 
 Data: [CSV traces](data/)
+
+
+## Cost Efficiency
+
+TAT's chunk architecture reduces memory and token usage by 25–30×. For a typical agent system with 4 months of session logs: 24 MB → <1 MB storage, LLM costs from ~$24/month to <$1/month.
+
+See the full analysis in [TAT-ONE-TAP → Cost Efficiency](https://github.com/maratsultanov2/TAT-ONE-TAP).
