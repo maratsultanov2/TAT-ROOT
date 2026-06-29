@@ -147,3 +147,12 @@ Data: [CSV traces](data/)
 TAT's chunk architecture reduces memory and token usage by 25–30×. For a typical agent system with 4 months of session logs: 24 MB → <1 MB storage, LLM costs from ~$24/month to <$1/month.
 
 See the full analysis in [TAT-ONE-TAP → Cost Efficiency](https://github.com/maratsultanov2/TAT-ONE-TAP).
+
+
+## Theoretical Foundation
+
+TAT's mathematical, physical, and thermodynamic principles — all constants, formulas, and thresholds with verifiable sources.
+
+- [English](docs/en/THEORETICAL_FOUNDATION.md)
+- [Русский](docs/ru/THEORETICAL_FOUNDATION.md)
+- [中文](docs/zh/THEORETICAL_FOUNDATION.md)
