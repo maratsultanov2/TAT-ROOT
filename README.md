@@ -30,3 +30,10 @@ TAT-ROOT contains the theoretical foundation, glossary, benchmarks, and calibrat
 ## Cross-Framework Validation
 
 TAT participates in the cross-framework field health observation with HeartFlow, Cophy, TLAA, and U/D/A/H. See #1466 in DeepSeek-V3.
+
+## Stress Test (33,619 fragments)
+
+TAT-7 stress-tested on 33,619 heterogeneous fragments (code + logs + research texts) with TinyLlama-1.1B. No overfitting, flat divergence, 3 hours continuous operation without thermal issues.
+
+📖 [Full Methodology](data/STRESS_TEST_33619.md) | 📊 [Graph](data/stress_test_33619.png)
+
