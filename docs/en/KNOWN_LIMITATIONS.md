@@ -3,6 +3,12 @@
 This document honestly describes what TAT can and cannot do as of June 2026.
 
 ## What TAT does well
+## What TAT handles well
+
+- **Noise immunity:** TAT-7 does not overfit on heterogeneous data. Stress test on 33,619 mixed fragments (code, logs, text) showed flat divergence (−0.028 ± 0.009) — the model correctly identified the absence of semantic phase transitions.
+- **Energy efficiency:** 3 hours of continuous operation on standard CPU without thermal issues. See [Stress Test](data/STRESS_TEST_33619.md).
+
+## What TAT does well (continued)
 
 - **Continual learning (images):** TAT-7 retains 79% memory on Split Fashion-MNIST vs. 6–9% for EWC/SI/MAS. Divergence trace works as unsupervised leading indicator.
 - **Supervised semantic phase detection (text):** TAT-7 with complex weights (θ=1.987), soft boundaries (37/73), and controlled noise (0.7%) distinguishes 5 semantic phases with ~1.0 separation when trained with phase labels.
