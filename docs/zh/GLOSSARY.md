@@ -18,6 +18,7 @@
 | **谐波门（结构否决）(Harmony gate / Structural veto)** | Marat Sultanov (TAT) | 谐波头权重 2.0：如果谐波沉默，无论 Position 和 Coherence 的值如何，都拒绝巩固。 |
 | **H 值 (H-value)** | yun520-1 (HeartFlow) | 场健康公式：`H = 0.4·U + 0.3·D − 0.3·A`，其中 U/D/A 是归一化的效用、方向和权威。 |
 
+| **对话环 (Dialogue ring)** | Marat Sultanov (TAT) | 多代理迭代协调机制：模型在多个回合中交换数据，直到相干性达到 0.5 阈值。比单轮验证更深入——代理进行协商，相干性在每个回合中上升。 |
 ## 归属
 
 - **Marat Sultanov** — TAT (TreeAngleTap) 的创造者。[GitHub](https://github.com/maratsultanov2)
