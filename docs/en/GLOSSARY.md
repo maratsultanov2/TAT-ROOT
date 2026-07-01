@@ -18,6 +18,7 @@ This glossary defines the key terms used across TAT and related frameworks (Coph
 | **Pre-execution verification** | yun520-1 (HeartFlow) | Audit that occurs before tool execution, allowing BLOCK/MODIFY decisions before tokens are generated and side effects occur. |
 | **Surface coherence** | icophy (Cophy Runtime) | State where an agent appears active (high Position) and internally consistent (normal Coherence) but is not meaningfully integrating new information with existing memory (harmony silent, low causal density). |
 
+| **Dialogue ring (Диалоговое кольцо)** | Marat Sultanov (TAT) | Multi-agent iterative reconciliation mechanism: models exchange data across multiple rounds until coherence reaches the 0.5 threshold. Deeper than single-round verification — agents negotiate, coherence rises at each turn. |
 ## Attribution
 
 - **Marat Sultanov** — creator of TAT (TreeAngleTap). [GitHub](https://github.com/maratsultanov2)
