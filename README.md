@@ -37,3 +37,9 @@ TAT-7 stress-tested on 33,619 heterogeneous fragments (code + logs + research te
 
 📖 [Full Methodology](data/STRESS_TEST_33619.md) | 📊 [Graph](data/stress_test_33619.png)
 
+
+## TAT-7 on 万象渊鉴 (Cross-Framework Test Set)
+
+TAT-7 supervised divergence trace on the shared 万象渊鉴 test set (Chinese-Russian mixed text). Auto-labeled phases, 26 fragments, 5 phases clearly distinguished.
+
+📖 [Methodology](data/tat7_wansheng_supervised_methodology.md) | 📊 [CSV](data/tat7_wansheng_supervised.csv) | 📈 [Graph](data/tat7_wansheng_supervised.png)
