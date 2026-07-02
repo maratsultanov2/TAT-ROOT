@@ -55,3 +55,16 @@ TAT-7 Full with complex weights (θ=1.987), soft boundaries 37/73, and controlle
 | TAT-7 Full | **0.989** | **0.118** | ~35s |
 
 📖 [Methodology](data/tat7_basic_vs_full_methodology.md) | 📊 [Basic CSV](data/tat7_basic_250.csv) | 📊 [Full CSV](data/tat7_full_250.csv) | 📈 [Graphs](data/)
+
+## TAT-7: Architecture Evolution
+
+TAT-7 Full Harmony with 7×64×64 harmonic matrix surpasses MLP baseline (R²=0.995 vs 0.990). Each architectural component adds measurable value.
+
+| Model | R² | MAE | Time |
+|-------|-----|-----|------|
+| MLP | 0.990 | 0.064 | — |
+| TAT-7 Basic | 0.943 | 0.214 | ~25s |
+| TAT-7 Full | 0.989 | 0.118 | ~35s |
+| **TAT-7 Full Harmony** | **0.995** | **0.063** | ~40s |
+
+📖 [Methodology](data/tat7_architecture_evolution.md) | 📊 [Data](data/)
