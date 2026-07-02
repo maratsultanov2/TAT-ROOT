@@ -43,3 +43,15 @@ TAT-7 stress-tested on 33,619 heterogeneous fragments (code + logs + research te
 TAT-7 supervised divergence trace on the shared 万象渊鉴 test set (Chinese-Russian mixed text). Auto-labeled phases, 26 fragments, 5 phases clearly distinguished.
 
 📖 [Methodology](data/tat7_wansheng_supervised_methodology.md) | 📊 [CSV](data/tat7_wansheng_supervised.csv) | 📈 [Graph](data/tat7_wansheng_supervised.png)
+
+## TAT-7: Basic vs Full Architecture Comparison
+
+TAT-7 Full with complex weights (θ=1.987), soft boundaries 37/73, and controlled noise 0.7% achieves R²=0.989 — matching MLP baseline with interpretable divergence trace output. All tests on CPU (x86_64, 2 cores, Google Colab free tier).
+
+| Model | R² | MAE | Time |
+|-------|-----|-----|------|
+| MLP | 0.990 | 0.064 | — |
+| TAT-7 Basic | 0.943 | 0.214 | ~25s |
+| TAT-7 Full | **0.989** | **0.118** | ~35s |
+
+📖 [Methodology](data/tat7_basic_vs_full_methodology.md) | 📊 [Basic CSV](data/tat7_basic_250.csv) | 📊 [Full CSV](data/tat7_full_250.csv) | 📈 [Graphs](data/)
