@@ -19,6 +19,7 @@
 | **H 值 (H-value)** | yun520-1 (HeartFlow) | 场健康公式：`H = 0.4·U + 0.3·D − 0.3·A`，其中 U/D/A 是归一化的效用、方向和权威。 |
 
 | **对话环 (Dialogue ring)** | Marat Sultanov (TAT) | 多代理迭代协调机制：模型在多个回合中交换数据，直到相干性达到 0.5 阈值。比单轮验证更深入——代理进行协商，相干性在每个回合中上升。 |
+| **三重奏谐波共振 (Harmonic Resonance of the Triumvirate)** | Marat Sultanov (TAT) | 三阶段 TAT-7 架构：两个带相移的峰值捕捉器 + 一个结构记忆保持器。无需监督目标，将平均散度从 2.1 降至 0.13（降低 94%）。详情尚未公开。 |
 ## 归属
 
 - **Marat Sultanov** — TAT (TreeAngleTap) 的创造者。[GitHub](https://github.com/maratsultanov2)
