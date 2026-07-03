@@ -71,6 +71,21 @@ Experimental: three-phase TAT-7 architecture reduces mean divergence from 2.1 to
 
 *Details of the triple-phase architecture are not yet publicly disclosed.*
 
+
+## Experimental: TAT-T (Triumvirate)
+
+Three-phase architecture with structural memory. Reduces divergence across all tested datasets — from 5 to 101 steps.
+
+| Dataset (Author) | Single TAT-7 | Dual-phase | Triumvirate |
+|------------------|-------------|------------|-------------|
+| icophy (31 steps) | 0.154 | 0.129 | **−0.146** |
+| luoxuejian (101 steps) | 0.006 | −0.078 | **−0.245** |
+| DanceNitra (5 steps) | 0.002 | −0.001 | **−0.450** |
+
+📊 [CSV](data/triumvirate_cross_framework.csv) | 📈 [Graph](data/triumvirate_cross_framework.png) | 📖 [Methodology](data/triumvirate_cross_framework_methodology.md)
+
+*Architectural details of the triumvirate are not yet publicly disclosed.*
+
 ## TAT-7: Architecture Evolution
 
 TAT-7 Full Harmony with 7×64×64 harmonic matrix surpasses MLP baseline (R²=0.995 vs 0.990). Each architectural component adds measurable value.
