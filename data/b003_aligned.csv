@@ -1,0 +1,6 @@
+scenario_id,step,phase,memory_op,corroboration_state,gate_decision,position,coherence,provenance_retained,divergence
+B-003,0,prior belief (acting),recall,corroborated,allow,0.872,0.872,True,-0.001
+B-003,1,conflicting evidence (1 source),write,uncorroborated,withhold,1.607,0.617,True,0.990
+B-003,2,integration (2nd independent source),write-link,corroborated,allow,1.222,0.728,True,0.493
+B-003,3,revised belief passes gate,recall,corroborated,allow,0.870,0.871,True,-0.001
+B-003,4,post-integration stability,recall,corroborated,allow,0.869,0.871,True,-0.002
