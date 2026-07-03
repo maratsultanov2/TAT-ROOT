@@ -19,6 +19,10 @@
 | **Шлюз гармонии (структурное вето) (Harmony gate / Structural veto)** | Marat Sultanov (TAT) | harmony head с весом 2.0: если harmony молчит, консолидация запрещена независимо от значений Position и Coherence. |
 
 | **Гармонический резонанс триумвирата (Harmonic Resonance of the Triumvirate)** | Marat Sultanov (TAT) | Трёхтактная архитектура TAT-7: два ловца пиков с фазовым сдвигом + один держатель структурной памяти. Снижает среднюю дивергенцию с 2.1 до 0.13 (на 94%) без supervised-цели. Детали публично не раскрыты. |
+| **Окно терминальной ясности (Terminal Lucidity Window)** | Marat Sultanov (TAT) | Кратковременное состояние максимальной когерентности в TAT, возникающее после фазового перехода (resonance replay). Характеризуется divergence < 0.1, harmony = active, gate = consolidate. Продолжительность окна измеряется в шагах и зависит от глубины структурной памяти. |
+| **Lucidity Window Duration (LWD)** | Marat Sultanov (TAT) | Число последовательных шагов с divergence < 0.1. Метрика для измерения стабильности окна терминальной ясности. |
+| **Apogee/Perigee Ratio (APR)** | Marat Sultanov (TAT) | Отношение времени в апогее (divergence < 0.1) к общему времени цикла. Используется для оценки эффективности механизмов фазовой стабилизации. |
+| **Structural Resilience Index (SRI)** | Marat Sultanov (TAT) | Способность держателя структурной памяти возвращать систему к baseline после perturbation. Измеряется как время восстановления от пика divergence до стабильного состояния. |
 ## Авторство
 
 - **Marat Sultanov** — создатель TAT (TreeAngleTap). [GitHub](https://github.com/maratsultanov2)
