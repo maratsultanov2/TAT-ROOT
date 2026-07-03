@@ -20,6 +20,10 @@
 
 | **对话环 (Dialogue ring)** | Marat Sultanov (TAT) | 多代理迭代协调机制：模型在多个回合中交换数据，直到相干性达到 0.5 阈值。比单轮验证更深入——代理进行协商，相干性在每个回合中上升。 |
 | **三重奏谐波共振 (Harmonic Resonance of the Triumvirate)** | Marat Sultanov (TAT) | 三阶段 TAT-7 架构：两个带相移的峰值捕捉器 + 一个结构记忆保持器。无需监督目标，将平均散度从 2.1 降至 0.13（降低 94%）。详情尚未公开。 |
+| **终末清醒窗口 (Terminal Lucidity Window)** | Marat Sultanov (TAT) | TAT 中相变（共振回放）后出现的短暂最大相干状态。特征为散度 < 0.1、谐波 = 活跃、门 = 巩固。窗口持续时间以步数衡量，取决于结构记忆深度。 |
+| **清醒窗口持续时间 (Lucidity Window Duration, LWD)** | Marat Sultanov (TAT) | 散度 < 0.1 的连续步数。用于衡量终末清醒窗口稳定性的指标。 |
+| **远地点/近地点比率 (Apogee/Perigee Ratio, APR)** | Marat Sultanov (TAT) | 处于远地点（散度 < 0.1）的时间与总周期时间的比率。用于评估相位稳定机制的有效性。 |
+| **结构韧性指数 (Structural Resilience Index, SRI)** | Marat Sultanov (TAT) | 结构记忆保持器在扰动后将系统恢复到基线的能力。以从峰值散度恢复到稳定状态的时间来衡量。 |
 ## 归属
 
 - **Marat Sultanov** — TAT (TreeAngleTap) 的创造者。[GitHub](https://github.com/maratsultanov2)
