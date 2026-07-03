@@ -1,0 +1,4 @@
+dataset,data_author,single_mean,dual_mean,triple_mean,memory_used
+icophy (Cophy Runtime),icophy,0.154,0.129,-0.146,10
+luoxuejian (Resonance-Missile),luoxuejian000,0.006,-0.078,-0.245,10
+DanceNitra (Agora/mnemo),DanceNitra,0.002,-0.001,-0.45,10
