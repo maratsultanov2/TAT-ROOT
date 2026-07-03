@@ -56,6 +56,21 @@ TAT-7 Full with complex weights (θ=1.987), soft boundaries 37/73, and controlle
 
 📖 [Methodology](data/tat7_basic_vs_full_methodology.md) | 📊 [Basic CSV](data/tat7_basic_250.csv) | 📊 [Full CSV](data/tat7_full_250.csv) | 📈 [Graphs](data/)
 
+
+## Harmonic Resonance of the Triumvirate
+
+Experimental: three-phase TAT-7 architecture reduces mean divergence from 2.1 to **0.13** (94% reduction). Single vs dual vs triple phase comparison.
+
+| Mode | Mean Divergence | Exceedances (0.3) |
+|------|----------------|-------------------|
+| Single TAT-7 | ~2.1 | 9/10 |
+| Dual-phase | ~1.7 | 8/10 |
+| **Triple-phase** | **~0.13** | **3/10** |
+
+📊 [CSV Data](data/) | 📈 [Graph](data/triumvirate_comparison.png)
+
+*Details of the triple-phase architecture are not yet publicly disclosed.*
+
 ## TAT-7: Architecture Evolution
 
 TAT-7 Full Harmony with 7×64×64 harmonic matrix surpasses MLP baseline (R²=0.995 vs 0.990). Each architectural component adds measurable value.
