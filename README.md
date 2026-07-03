@@ -98,3 +98,9 @@ TAT-7 Full Harmony with 7×64×64 harmonic matrix surpasses MLP baseline (R²=0.
 | **TAT-7 Full Harmony** | **0.995** | **0.063** | ~40s |
 
 📖 [Methodology](data/tat7_architecture_evolution.md) | 📊 [Data](data/)
+
+## Cross-Framework Validation Report (July 2026)
+
+Complete TAT-7 results for the DeepSeek-V3 #1466 cross-framework field health observation. All tests, data, and methodology.
+
+📖 [Full Report](docs/en/CROSS_FRAMEWORK_REPORT.md)
