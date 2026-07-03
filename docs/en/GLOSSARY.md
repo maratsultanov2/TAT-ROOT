@@ -20,6 +20,10 @@ This glossary defines the key terms used across TAT and related frameworks (Coph
 
 | **Dialogue ring (Диалоговое кольцо)** | Marat Sultanov (TAT) | Multi-agent iterative reconciliation mechanism: models exchange data across multiple rounds until coherence reaches the 0.5 threshold. Deeper than single-round verification — agents negotiate, coherence rises at each turn. |
 | **Harmonic Resonance of the Triumvirate (Гармонический резонанс триумвирата)** | Marat Sultanov (TAT) | Three-phase TAT-7 architecture: two peak-catchers with phase shift + one structural memory holder. Reduces mean divergence from 2.1 to 0.13 (94% reduction) without supervised target. Details not yet publicly disclosed. |
+| **Terminal Lucidity Window (Окно терминальной ясности)** | Marat Sultanov (TAT) | A brief state of maximum coherence in TAT following a phase transition (resonance replay). Characterised by divergence < 0.1, harmony = active, gate = consolidate. Window duration is measured in steps and depends on structural memory depth. |
+| **Lucidity Window Duration (LWD)** | Marat Sultanov (TAT) | The number of consecutive steps with divergence < 0.1. A metric for measuring the stability of the terminal lucidity window. |
+| **Apogee/Perigee Ratio (APR)** | Marat Sultanov (TAT) | The ratio of time spent in apogee (divergence < 0.1) to total cycle time. Used to assess the effectiveness of phase-stabilising mechanisms. |
+| **Structural Resilience Index (SRI)** | Marat Sultanov (TAT) | The ability of the structural memory holder to return the system to baseline after perturbation. Measured as the recovery time from peak divergence to stable state. |
 ## Attribution
 
 - **Marat Sultanov** — creator of TAT (TreeAngleTap). [GitHub](https://github.com/maratsultanov2)
