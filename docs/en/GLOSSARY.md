@@ -19,6 +19,7 @@ This glossary defines the key terms used across TAT and related frameworks (Coph
 | **Surface coherence** | icophy (Cophy Runtime) | State where an agent appears active (high Position) and internally consistent (normal Coherence) but is not meaningfully integrating new information with existing memory (harmony silent, low causal density). |
 
 | **Dialogue ring (Диалоговое кольцо)** | Marat Sultanov (TAT) | Multi-agent iterative reconciliation mechanism: models exchange data across multiple rounds until coherence reaches the 0.5 threshold. Deeper than single-round verification — agents negotiate, coherence rises at each turn. |
+| **Harmonic Resonance of the Triumvirate (Гармонический резонанс триумвирата)** | Marat Sultanov (TAT) | Three-phase TAT-7 architecture: two peak-catchers with phase shift + one structural memory holder. Reduces mean divergence from 2.1 to 0.13 (94% reduction) without supervised target. Details not yet publicly disclosed. |
 ## Attribution
 
 - **Marat Sultanov** — creator of TAT (TreeAngleTap). [GitHub](https://github.com/maratsultanov2)
