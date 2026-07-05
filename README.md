@@ -1,106 +1,30 @@
-# TAT-ROOT — Architectural Core of TreeAngleTap
+# TAT-ROOT
 
-[![License: AGPL v3](https://img.shields.io/badge/Code-AGPL%20v3-blue.svg)](LICENSE-CODE)
-[![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/Data-CC%20BY--NC--ND%204.0-lightgrey.svg)](LICENSE-DATA)
-[![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue)](https://python.org)
-[![Status: Active](https://img.shields.io/badge/Status-Active-brightgreen)]()
-[![Cross-Framework](https://img.shields.io/badge/Cross--Framework-5%20frameworks-purple)]()
+## TAT-T
+- [TAT-T Triumvirate](docs/en/TAT-T_TRIUMVIRATE.md) — Three-actor architecture with phase shifts.
+- [TAT-T Crystal Phase Selection](docs/en/TAT-T_CRYSTAL_PHASE_SELECTION.md) — Phase scan results.
 
-TAT-ROOT contains the theoretical foundation, glossary, benchmarks, and calibration documents for the TAT ecosystem.
+[![TAT-T Status](https://img.shields.io/badge/TAT--T-Experimental-blue)](docs/en/TAT-T_TRIUMVIRATE.md)
+[![TAT-T Crystal](https://img.shields.io/badge/TAT--T_Crystal-Phase_Scan-green)](docs/en/TAT-T_CRYSTAL_PHASE_SELECTION.md)
+[![Cross-Framework](https://img.shields.io/badge/Cross--Framework-Validated-brightgreen)](docs/en/TAT-T_TRIUMVIRATE.md#cross-framework)
+[![Colab](https://img.shields.io/badge/Colab-Notebooks-yellow)](notebooks/)
 
-## Quick Links
-
+## Documentation
 - [Theoretical Foundation](docs/en/THEORETICAL_FOUNDATION.md)
 - [Glossary](docs/en/GLOSSARY.md)
 - [Cross-Framework Calibration](CROSS_FRAMEWORK_CALIBRATION.md)
-- [Known Limitations](docs/en/KNOWN_LIMITATIONS.md)
-- [Comparative Benchmark](docs/en/benchmarks/COMPARATIVE_BENCHMARK.md)
+- [Operational Envelope](docs/en/OPERATIONAL_ENVELOPE.md)
 - [Kettle Principle](docs/en/KETTLE_PRINCIPLE.md)
-- [Cost Efficiency](https://github.com/maratsultanov2/TAT-ONE-TAP/blob/main/docs/en/COST_EFFICIENCY.md)
 
-## Ecosystem
+## Data
+- [Synthetic benchmark](data/triumvirate_synthetic.csv)
+- [Cross-framework validation](data/triumvirate_cross_framework.csv)
+- [Crystal phase scan](data/tat_crystal_phase_scan_results.csv)
 
-| Repository | Purpose |
-|------------|---------|
-| [TAT-ROOT](https://github.com/maratsultanov2/TAT-ROOT) | Architecture, theory, benchmarks |
-| [TAT-ONE-TAP](https://github.com/maratsultanov2/TAT-ONE-TAP) | Memory for LLM, TAT-DIFF, TAT-Secretary |
-| [TAT-DEMO](https://github.com/maratsultanov2/TAT-DEMO) | Visualization, Colab demos |
-| [TAT7-logistics](https://github.com/maratsultanov2/TAT7-logistics) | Industrial prototype for warehouse |
+## Notebooks
+- [TAT-T Synthetic](notebooks/TAT-T_Triumvirate_Synthetic.ipynb)
+- [TAT-T Cross-Framework](notebooks/TAT-T_CrossFramework_Validation.ipynb)
+- [TAT-T Crystal Phase Scan](notebooks/TAT-T_Crystal_Phase_Scan.ipynb)
 
-## Cross-Framework Validation
-
-TAT participates in the cross-framework field health observation with HeartFlow, Cophy, TLAA, and U/D/A/H. See #1466 in DeepSeek-V3.
-
-## Stress Test (33,619 fragments)
-
-TAT-7 stress-tested on 33,619 heterogeneous fragments (code + logs + research texts) with TinyLlama-1.1B. No overfitting, flat divergence, 3 hours continuous operation without thermal issues.
-
-📖 [Full Methodology](data/STRESS_TEST_33619.md) | 📊 [Graph](data/stress_test_33619.png)
-
-
-## TAT-7 on 万象渊鉴 (Cross-Framework Test Set)
-
-TAT-7 supervised divergence trace on the shared 万象渊鉴 test set (Chinese-Russian mixed text). Auto-labeled phases, 26 fragments, 5 phases clearly distinguished.
-
-📖 [Methodology](data/tat7_wansheng_supervised_methodology.md) | 📊 [CSV](data/tat7_wansheng_supervised.csv) | 📈 [Graph](data/tat7_wansheng_supervised.png)
-
-## TAT-7: Basic vs Full Architecture Comparison
-
-TAT-7 Full with complex weights (θ=1.987), soft boundaries 37/73, and controlled noise 0.7% achieves R²=0.989 — matching MLP baseline with interpretable divergence trace output. All tests on CPU (x86_64, 2 cores, Google Colab free tier).
-
-| Model | R² | MAE | Time |
-|-------|-----|-----|------|
-| MLP | 0.990 | 0.064 | — |
-| TAT-7 Basic | 0.943 | 0.214 | ~25s |
-| TAT-7 Full | **0.989** | **0.118** | ~35s |
-
-📖 [Methodology](data/tat7_basic_vs_full_methodology.md) | 📊 [Basic CSV](data/tat7_basic_250.csv) | 📊 [Full CSV](data/tat7_full_250.csv) | 📈 [Graphs](data/)
-
-
-## Harmonic Resonance of the Triumvirate
-
-Experimental: three-phase TAT-7 architecture reduces mean divergence from 2.1 to **0.13** (94% reduction). Single vs dual vs triple phase comparison.
-
-| Mode | Mean Divergence | Exceedances (0.3) |
-|------|----------------|-------------------|
-| Single TAT-7 | ~2.1 | 9/10 |
-| Dual-phase | ~1.7 | 8/10 |
-| **Triple-phase** | **~0.13** | **3/10** |
-
-📊 [CSV Data](data/) | 📈 [Graph](data/triumvirate_comparison.png)
-
-*Details of the triple-phase architecture are not yet publicly disclosed.*
-
-
-## Experimental: TAT-T (Triumvirate)
-
-Three-phase architecture with structural memory. Reduces divergence across all tested datasets — from 5 to 101 steps.
-
-| Dataset (Author) | Single TAT-7 | Dual-phase | Triumvirate |
-|------------------|-------------|------------|-------------|
-| icophy (31 steps) | 0.154 | 0.129 | **−0.146** |
-| luoxuejian (101 steps) | 0.006 | −0.078 | **−0.245** |
-| DanceNitra (5 steps) | 0.002 | −0.001 | **−0.450** |
-
-📊 [CSV](data/triumvirate_cross_framework.csv) | 📈 [Graph](data/triumvirate_cross_framework.png) | 📖 [Methodology](data/triumvirate_cross_framework_methodology.md)
-
-*Architectural details of the triumvirate are not yet publicly disclosed.*
-
-## TAT-7: Architecture Evolution
-
-TAT-7 Full Harmony with 7×64×64 harmonic matrix surpasses MLP baseline (R²=0.995 vs 0.990). Each architectural component adds measurable value.
-
-| Model | R² | MAE | Time |
-|-------|-----|-----|------|
-| MLP | 0.990 | 0.064 | — |
-| TAT-7 Basic | 0.943 | 0.214 | ~25s |
-| TAT-7 Full | 0.989 | 0.118 | ~35s |
-| **TAT-7 Full Harmony** | **0.995** | **0.063** | ~40s |
-
-📖 [Methodology](data/tat7_architecture_evolution.md) | 📊 [Data](data/)
-
-## Cross-Framework Validation Report (July 2026)
-
-Complete TAT-7 results for the DeepSeek-V3 #1466 cross-framework field health observation. All tests, data, and methodology.
-
-📖 [Full Report](docs/en/CROSS_FRAMEWORK_REPORT.md)
+## License
+MIT
