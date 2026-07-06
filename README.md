@@ -89,3 +89,11 @@ This project is licensed under the **MIT License** – see the [LICENSE](LICENSE
 
 ## License
 MIT
+
+
+## Financial Case Study
+- [TAT-T Crystal on Financial Data](docs/en/TAT-T_CRYSTAL_FINANCIAL_CASE.md) — Adaptive phases applied to market volatility prediction.
+
+[![Financial Case](https://img.shields.io/badge/Financial-Case_Study-blue)](docs/en/TAT-T_CRYSTAL_FINANCIAL_CASE.md)
+[![Adaptive Phases](https://img.shields.io/badge/Adaptive-Phases-green)](docs/en/TAT-T_CRYSTAL_FINANCIAL_CASE.md)
+[![Colab](https://img.shields.io/badge/Colab-Open-yellow)](https://colab.research.google.com/github/maratsultanov2/TAT-ROOT/blob/main/notebooks/TAT-T_Crystal_Financial_Adaptive_Phases.ipynb)
