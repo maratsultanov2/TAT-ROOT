@@ -23,3 +23,7 @@ Sufficiency as energy efficiency — no need to boil water for tea.
 
 ## Chunk Carousel
 Memory management without discard/defer.
+
+
+## Adaptive Phase
+A phase shift parameter that is learned during training. In TAT-T Crystal, the phases of DNA, RNA, and Protein layers are trainable, allowing the system to self‑calibrate to the data structure. See the [Financial Case Study](docs/en/TAT-T_CRYSTAL_FINANCIAL_CASE.md) for an example.
