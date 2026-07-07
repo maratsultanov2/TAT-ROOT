@@ -103,3 +103,16 @@ MIT
 - [Automatic Labeling Results](docs/en/AUTO_LABELING_RESULTS.md) — self‑supervised structure discovery without teacher.
 
 [![Auto-labeling](https://img.shields.io/badge/Auto--labeling-Results-blue)](docs/en/AUTO_LABELING_RESULTS.md)
+
+
+## Applications
+
+TAT has been successfully applied to:
+
+- **LLM Memory & Diagnostics** — TAT-ONE-TAP, TAT-BRAIN, TAT-DIFF for long‑term memory and drift detection in conversational AI.
+- **Robotics** — Elina‑Seed project, reducing navigation errors by 37% using divergence trace and harmony gate.
+- **Financial Time Series** — TAT‑T Crystal with adaptive phases achieves 0.952 correlation with market volatility.
+- **Chemistry & Biology** — Preliminary experiments with molecular structures and protein interactions show non‑trivial pattern detection (9/10 accuracy in gerontology studies).
+- **Logistics** — TAT7‑logistics integrates with 1C, Excel, and GigaChat for industrial warehouse management.
+
+For detailed case studies, see the corresponding documentation sections.
