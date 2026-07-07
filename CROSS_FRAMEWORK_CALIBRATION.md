@@ -64,3 +64,14 @@ Each framework provides results in its native format, with a `raw_format` field 
 ---
 
 *This document is versioned in TAT-ROOT. Conventions can be updated as frameworks evolve and new data becomes available.*
+
+
+## TAT-T Crystal and Adaptive Labeling
+
+TAT-T Crystal extends the cross‑framework calibration with:
+- **Adaptive phases** — phase shifts become learnable parameters, allowing the system to self‑calibrate to any data stream.
+- **Automatic labeling** — the system can discover its own structural pivots (number and location) from data, without external supervision.
+
+These developments preserve the original 0.3 threshold convergence and the r=0.985 correlation with Cophy, while adding new dimensions to the calibration framework.
+
+See the [TAT-T Crystal Phase Selection](docs/en/TAT-T_CRYSTAL_PHASE_SELECTION.md) and [Auto-labeling Results](docs/en/AUTO_LABELING_RESULTS.md) for details.
