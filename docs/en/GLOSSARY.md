@@ -27,3 +27,7 @@ Memory management without discard/defer.
 
 ## Adaptive Phase
 A phase shift parameter that is learned during training. In TAT-T Crystal, the phases of DNA, RNA, and Protein layers are trainable, allowing the system to self‑calibrate to the data structure. See the [Financial Case Study](docs/en/TAT-T_CRYSTAL_FINANCIAL_CASE.md) for an example.
+
+
+## Automatic Labeling
+A method where the system identifies its own structural pivots from data without external supervision. In TAT-T Crystal, this is achieved via graph‑based structural analysis (threshold + spectral decomposition) and used as targets for training. See the [Auto‑labeling Results](docs/en/AUTO_LABELING_RESULTS.md) for an example.
