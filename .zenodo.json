@@ -1,0 +1,26 @@
+{
+  "creators": [
+    {
+      "name": "Sultanov, Marat",
+      "affiliation": "Independent Researcher"
+    }
+  ],
+  "title": "TAT-ROOT: TreeAngleTap Architecture and Cross-Framework Validation",
+  "description": "This repository contains the theoretical foundation, benchmarks, and case studies for the TAT (TreeAngleTap) architecture \u2014 a quantum\u2011thermodynamic fractal memory system for neural networks. Includes cross\u2011framework validation with HeartFlow, Cophy, and TLAA; financial time\u2011series experiments; and automatic labeling results.",
+  "license": "MIT",
+  "keywords": [
+    "TAT",
+    "TreeAngleTap",
+    "memory",
+    "coherence",
+    "cross\u2011framework",
+    "validation",
+    "adaptive phases"
+  ],
+  "access_right": "open",
+  "communities": [
+    {
+      "identifier": "deepseek"
+    }
+  ]
+}
