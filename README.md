@@ -116,3 +116,14 @@ TAT has been successfully applied to:
 - **Logistics** — TAT7‑logistics integrates with 1C, Excel, and GigaChat for industrial warehouse management.
 
 For detailed case studies, see the corresponding documentation sections.
+
+
+## Defense
+- [TAT Defense Module](docs/defense/README.md) — multi‑layer anomaly detection and flood management.
+
+[![TAT Defense](https://img.shields.io/badge/TAT-Defense-blue)](docs/defense/README.md)
+[![License](https://img.shields.io/badge/License-Custom-red)](LICENSE)
+[![Status](https://img.shields.io/badge/Status-Experimental-yellow)](docs/defense/README.md)
+[![EN](https://img.shields.io/badge/EN-Read-blue)](docs/defense/README.md)
+[![RU](https://img.shields.io/badge/RU-Read-blue)](docs/defense/README.ru.md)
+[![ZH](https://img.shields.io/badge/ZH-Read-blue)](docs/defense/README.zh.md)
