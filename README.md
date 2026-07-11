@@ -137,3 +137,8 @@ For detailed case studies, see the corresponding documentation sections.
 [![TAT vs Baseline](https://img.shields.io/badge/TAT-Structural%20Anomaly%20Detection-blue)](experiments/value_obscuring_rastislav/README.md)
 [![Dataset by Rastislav](https://img.shields.io/badge/Dataset-Rastislav_Drahos-green)](https://github.com/DanceNitra/agora)
 [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey)](LICENSE-DATA)
+
+
+## Direct Context Comparison Method
+[![TAT](https://img.shields.io/badge/TAT-Experimental-blue)](experiments/value_obscuring_rastislav/direct_context_comparison/README.md)
+[![Status: Peer‑Reviewed](https://img.shields.io/badge/Status-Peer--Reviewed-brightgreen)](https://github.com/DanceNitra/agora)
