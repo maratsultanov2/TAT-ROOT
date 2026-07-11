@@ -1,0 +1,4 @@
+Test,F1_TAT,F1_Baseline,AUROC,Accuracy,Precision,Recall,Confusion_Matrix
+v2 (new phrasings),1.0,0.6,1.0,1.0,1.0,1.0,[80 0; 0 60]
+v3 (asserted value),1.0,N/A,1.0,1.0,1.0,1.0,[80 0; 0 60]
+"v4 (coreference, corrected)",0.6667,N/A,0.6362,0.5714,0.5,1.0,[20 60; 0 60]
