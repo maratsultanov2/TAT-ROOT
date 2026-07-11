@@ -127,3 +127,13 @@ For detailed case studies, see the corresponding documentation sections.
 [![EN](https://img.shields.io/badge/EN-Read-blue)](docs/defense/README.md)
 [![RU](https://img.shields.io/badge/RU-Read-blue)](docs/defense/README.ru.md)
 [![ZH](https://img.shields.io/badge/ZH-Read-blue)](docs/defense/README.zh.md)
+
+
+## Value‑Obscuring Reversion Experiments
+- [Полный отчёт](experiments/value_obscuring_rastislav/README.md)
+- [Результаты](experiments/value_obscuring_rastislav/results/)
+- [Ноутбуки](experiments/value_obscuring_rastislav/notebooks/)
+
+[![TAT vs Baseline](https://img.shields.io/badge/TAT-Structural%20Anomaly%20Detection-blue)](experiments/value_obscuring_rastislav/README.md)
+[![Dataset by Rastislav](https://img.shields.io/badge/Dataset-Rastislav_Drahos-green)](https://github.com/DanceNitra/agora)
+[![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey)](LICENSE-DATA)
