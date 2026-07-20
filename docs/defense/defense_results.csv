@@ -1,0 +1,10 @@
+dataset,variant,accuracy,precision,recall,f1
+synthetic,baseline,0.69,0.571,0.87,0.69
+synthetic,weighted,0.845,1.0,0.609,0.757
+synthetic,adaptive,0.828,0.933,0.609,0.737
+real_financial,baseline,0.902,0.0,0.0,0.0
+real_financial,weighted,0.902,0.0,0.0,0.0
+real_financial,adaptive,0.902,0.0,0.0,0.0
+real_combined,baseline,0.845,0.0,0.0,0.0
+real_combined,weighted,0.845,0.0,0.0,0.0
+real_combined,adaptive,0.845,0.0,0.0,0.0

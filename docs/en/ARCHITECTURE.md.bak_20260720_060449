@@ -1,0 +1,34 @@
+# TAT Architecture Overview
+
+## Modular System
+TAT is organized as a hierarchical modular system (located at `/content/drive/MyDrive/TAT_Modular_System`).
+
+### Layers
+| Directory | Purpose | Key Modules |
+|-----------|---------|-------------|
+| `00_core/` | Core mathematical kernel | `tat_core.py` (divergence, harmony, complex space), `tat_complex.py` |
+| `01_basic/` | Basic extensions | `tat_anchors.py` (adaptive anchors, mirror augmentation), `tat_mirror.py`, `tat_noise.py` |
+| `02_diagnostics/` | Structural diagnostics | `tat_defense.py` (anomaly detection), `tat_monitor.py` (revert detection), `tat_diff.py` (delta memory) |
+| `03_multi_agent/` | Multi-agent architectures | `tat_modular.py` (DNA/RNA/Protein), `tat_triumvirate.py`, `tat_fractal.py`, `tat7.py` (full TAT‑7) |
+| `04_integrations/` | External integrations | CERN, DMRG, agent pipelines (to be added) |
+| `05_private/` | Proprietary modules | Restricted access |
+
+### Data Flow
+1. **Input** → `00_core/tat_core.py` computes divergence & harmony.
+2. **Anchors** → `01_basic/tat_anchors.py` finds structural boundaries.
+3. **Diagnosis** → `02_diagnostics/` detects anomalies, reverts, or memory shifts.
+4. **Multi-agent** → `03_multi_agent/` combines multiple TAT layers (DNA, RNA, Protein) with inter‑layer harmony.
+
+## Repositories
+| Repository | Purpose |
+|-------------|------------|
+| [TAT-ROOT](https://github.com/maratsultanov2/TAT-ROOT) | Documentation, glossary, calibration |
+| [TAT-ONE-TAP](https://github.com/maratsultanov2/TAT-ONE-TAP) | Core modules: Defence, Monitor, Diff |
+| [TAT-DEMO](https://github.com/maratsultanov2/TAT-DEMO) | Visualization, Colab notebooks |
+| [TAT7-logistics](https://github.com/maratsultanov2/TAT7-logistics) | Industrial warehouse prototype |
+
+## Inter‑Layer Harmony
+Layers DNA (3 heads), RNA (5 heads), Protein (11 heads) synchronize via phase shifts (0.0, 0.05, 0.1) and inter‑layer harmony weights (0.5, 0.5, 0.3). Correlations between layers exceed 0.94.
+
+## Notation
+See [TAT Notation Guide](TAT_NOTATION.md) for symbols (`/`, `→`, `#`, `@`, etc.).
