@@ -87,8 +87,13 @@ TAT has been validated in two independent contexts:
 
 Both publications share the same core philosophy: **diagnose, don't prescribe — and let the data speak.**
 
----
+### 3. Systematic Numerical Study of the Spin‑Gap Prefactor in a 1D Mott Insulator
+**Authors:** Guanghao Li, Rastislav Drahos, Marat Sultanov
+**DOI:** [10.5281/zenodo.21473160](https://doi.org/10.5281/zenodo.21473160)
+**Status:** Published on Zenodo (open access, CC‑BY)
+**Key contribution:** Direct continuation of the EDRN cross‑verification. Convergence‑checked defect scans confirm that the prefactor A varies by >500% while the topological index C per bond varies by <1% — a decisive decoupling of local response from global topology. TAT‑Defense provided independent cross‑framework blind tests, and its honest‑silence record is documented in the appendix.
 
+---
 ## 🔗 Links
 
 - [TAT‑ONE‑TAP](https://github.com/maratsultanov2/TAT-ONE-TAP) — code and modules

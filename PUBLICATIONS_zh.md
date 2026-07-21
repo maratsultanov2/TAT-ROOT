@@ -87,8 +87,13 @@ TAT 已在两个独立上下文中得到验证：
 
 两篇出版物都遵循相同的核心理念：**诊断而不开方 — 让数据说话。**
 
----
+### 3. 一维莫特绝缘体中自旋能隙预因子的系统数值研究
+**作者:** Guanghao Li, Rastislav Drahos, Marat Sultanov
+**DOI:** [10.5281/zenodo.21473160](https://doi.org/10.5281/zenodo.21473160)
+**状态:** 发表于 Zenodo（开放获取，CC‑BY）
+**关键贡献:** EDRN 交叉验证的直接延续。经过收敛性检验的缺陷扫描证实，预因子 A 变化超过 500%，而每个键的拓扑指数 C 变化不到 1%——这是局部响应与全局拓扑的决定性解耦。TAT‑Defense 提供了独立的跨框架盲测，其诚实静默记录已记录于附录中。
 
+---
 ## 🔗 链接
 
 - [TAT‑ONE‑TAP](https://github.com/maratsultanov2/TAT-ONE-TAP) — 代码和模块

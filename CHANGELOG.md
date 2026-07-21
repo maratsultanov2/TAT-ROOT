@@ -1,3 +1,8 @@
+## [1.2.0] — 2026-07-21
+### Added
+- Third publication: defect scan convergence study (DOI: 10.5281/zenodo.21473160).
+- Updated all READMEs and PUBLICATIONS with the new DOI.
+
 # Changelog
 
 ## [1.1.0] — 2026-07-20
