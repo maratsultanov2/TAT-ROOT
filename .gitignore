@@ -2,5 +2,9 @@ private/
 tat_core/
 *.pkl
 *.h5
+*.weights
 __pycache__/
+*.pyc
 .ipynb_checkpoints/
+.vscode/
+.idea/
