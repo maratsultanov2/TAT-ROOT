@@ -8,13 +8,13 @@ class TestUtils(unittest.TestCase):
 
     def test_normalize(self):
         nx = normalize(self.x)
-        self.assertAlmostEqual(nx.min(), 0.0)
-        self.assertAlmostEqual(nx.max(), 1.0)
+        self.assertTrue(np.allclose(nx.min(), 0.0))
+        self.assertTrue(np.allclose(nx.max(), 1.0))
 
     def test_standardize(self):
         sx = standardize(self.x)
-        self.assertAlmostEqual(sx.mean(), 0.0, places=5)
-        self.assertAlmostEqual(sx.std(), 1.0, places=5)
+        self.assertTrue(np.allclose(sx.mean(), 0.0, atol=1e-5))
+        self.assertTrue(np.allclose(sx.std(), 1.0, atol=1e-5))
 
     def test_estimate_drift(self):
         t = np.arange(100)
@@ -26,7 +26,7 @@ class TestUtils(unittest.TestCase):
         y = np.arange(100)
         shuffled = block_shuffle(y, block_size=10)
         self.assertEqual(len(shuffled), 100)
-        self.assertFalse(np.array_equal(y, shuffled))  # Маловероятно, что перемешанный массив совпадёт
+        self.assertFalse(np.array_equal(y, shuffled))
 
 if __name__ == "__main__":
     unittest.main()

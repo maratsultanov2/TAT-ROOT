@@ -14,5 +14,7 @@ jobs:
         run: |
           pip install --upgrade pip
           pip install -r requirements.txt
+      - name: Install TAT in development mode
+        run: pip install -e .
       - name: Run tests
         run: python -m unittest discover tests/
