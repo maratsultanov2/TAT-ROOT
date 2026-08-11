@@ -5,6 +5,8 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21875878.svg)](https://doi.org/10.5281/zenodo.21875878)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-green)]()
 [![CI](https://github.com/maratsultanov2/TAT-ROOT/actions/workflows/ci.yml/badge.svg)](https://github.com/maratsultanov2/TAT-ROOT/actions/workflows/ci.yml)
+[![PyPI version](https://img.shields.io/badge/pypi-v0.1.0-blue)](https://pypi.org/project/tat-public/)
+[![Coverage](https://img.shields.io/badge/coverage-0%25-red)](https://github.com/maratsultanov2/TAT-ROOT)
 
 **English** | [Русский](#русский) | [中文](#中文)
 
