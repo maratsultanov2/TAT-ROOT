@@ -5,8 +5,7 @@ from tat_public.monitor_base import tat_monitor, permutation_test
 class TestMonitor(unittest.TestCase):
     def setUp(self):
         self.x = np.linspace(0, 10, 200)
-        self.clean = np.sin(self.x)
-        self.noisy = self.clean + np.random.randn(200) * 0.1
+        self.noisy = np.sin(self.x) + np.random.randn(200) * 0.1
 
     def test_tat_monitor_output(self):
         peaks, signal, thr = tat_monitor(self.noisy)

@@ -24,7 +24,7 @@ class TestUtils(unittest.TestCase):
 
     def test_block_shuffle(self):
         y = np.arange(100)
-        shuffled = block_shuffle(y, block_size=10)
+        shuffled = block_shuffle(y, 10)
         self.assertEqual(len(shuffled), 100)
         self.assertFalse(np.array_equal(y, shuffled))
 

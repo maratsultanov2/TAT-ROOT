@@ -26,7 +26,7 @@ class TestCoherence(unittest.TestCase):
         data = np.random.randn(10, 20)
         m = coherence_matrix(data)
         self.assertEqual(m.shape, (10, 10))
-        self.assertTrue(np.allclose(m, m.T))  # Симметричность
+        self.assertTrue(np.allclose(m, m.T))
 
 if __name__ == "__main__":
     unittest.main()

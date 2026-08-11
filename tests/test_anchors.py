@@ -5,12 +5,11 @@ from tat_public.anchors import adaptive_anchors, anchor_depth
 class TestAnchors(unittest.TestCase):
     def setUp(self):
         self.x = np.linspace(0, 3, 100)
-        self.y = (self.x - 1.5)**2  # Парабола с минимумом в x=1.5
+        self.y = (self.x - 1.5)**2
 
     def test_adaptive_anchors_single_minimum(self):
         anchors = adaptive_anchors(self.y)
         self.assertGreaterEqual(len(anchors), 1)
-        # Якорь должен быть рядом с x=1.5 (индекс 50)
         self.assertTrue(40 <= anchors[0] <= 60)
 
     def test_adaptive_anchors_short_series(self):
